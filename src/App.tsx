@@ -10,6 +10,7 @@ export const App = () => {
   return (
     <C.Container>
       <C.Area>
+        <C.Title>Task List</C.Title>
         <InputItem list={list} setList={setList} />
         <ListItem list={list} setList={setList} />
       </C.Area>

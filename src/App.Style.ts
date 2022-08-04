@@ -7,6 +7,12 @@ export const Container = styled.div`
 
 export const Area = styled.div`
   margin: auto;
-  padding-top: 50px;
   width: 980px;
+`;
+export const Title = styled.h1`
+  margin: 0;
+  text-align: center;
+  padding-top: 30px;
+  color: #fff;
+  font-family: "Josefin Sans";
 `;
